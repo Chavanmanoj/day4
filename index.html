@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manoj Chavan - Portfolio, Education, Goals, Achievements">
+  <meta name="keywords" content="Manoj Chavan, Portfolio, Web Developer, Full Stack Developer">
+  <meta name="author" content="Manoj Chavan">
+  <meta property="og:title" content="Manoj Chavan Portfolio">
+  <meta property="og:image" content="images.jpg">
+  <meta property="og:description" content="Personal introduction portfolio site.">
+  <meta property="og:url" content="https://manojchavan.tech">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Manoj Chavan | Full Stack Developer Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="image" href="images.jpg">
+
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="sastyle.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+</head>
+<body>
+  <!-- Loading Spinner -->
+  <div id="loading-spinner">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Manoj Chavan — Building the future, one line of code at a time.</p>
+    <a href="shop.html" class="shop-link">Visit My Shop</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
+    <div class="nav-links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#projects">Projects</a>
+      <a href="#goals">Goals</a>
+      <a href="#personal">Personal</a>
+      <a href="#contact">Contact</a>
+      <a href="shop.html">Shop</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Welcome Section -->
+    <section id="welcome">
+      <h2>This is Manoj Chavan</h2>
+      <img src="images.jpg" alt="Manoj Chavan smiling in front of a wall" class="profile-pic">
+      <p>I'm <strong>Manoj Chavan</strong>, passionate about solving real-world problems through creative code and bold ideas.</p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <ul>
+        <li><strong>Name:</strong> Manoj Chavan</li>
+        <li><strong>Location:</strong> Boisar, Maharashtra</li>
+        <li><strong>Education:</strong> St. John College of Engineering</li>
+        <li><strong>Languages:</strong> C, SQL, Python, HTML, CSS, JS, React</li>
+      </ul>
+    </section>
+
+    <!-- Video -->
+    <section id="video">
+      <h2>My Journey</h2>
+      <div class="video-container">
+        <iframe width="700" height="300" src="https://www.youtube.com/embed/UeC9-5o22aU" title="Mumbai City Tour" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Intern at Raw Engineering</li>
+        <li>2nd Prize - PPT Competition</li>
+        <li>Completed 10+ online certifications</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list">
+        <!-- Filled by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Goals -->
+    <section id="goals">
+      <h2>Future Goals</h2>
+      <p>I want to become a full-stack developer and build tech that solves real problems.</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>2024</h3>
+          <p>Master React and Node.js</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2025</h3>
+          <p>Build a SaaS product</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2026</h3>
+          <p>Start my own tech company</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal -->
+    <section id="personal">
+      <h2>More About Me</h2>
+      <ul>
+        <li><strong>Hobbies:</strong> Reading, Coding, Cricket</li>
+        <li><strong>Role Model:</strong> Myself</li>
+        <li><strong>Book:</strong> Atomic Habits</li>
+        <li><strong>Favorite Quote:</strong> "Code is like humor. When you have to explain it, it's bad."</li>
+      </ul>
+    </section>
+
+    <!-- Location -->
+    <section id="location">
+      <h2>My Location</h2>
+      <p>Currently located in Boisar, Palghar, Maharashtra, India.</p>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.222981040234!2d72.76395031538496!3d19.25175338699693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b13affffffff%3A0xfffffffffffffff!2sBoisar!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Contact Links -->
+    <section id="contact-links">
+      <h2>Connect With Me</h2>
+      <div class="social-links">
+        <a href="mailto:123manoj2129@sjcem.edu.in" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/Chavanmanoj" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/manoj-chavan-01615a359" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/manojchavan" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to Top Button -->
+  <a id="back-to-top" href="#welcome" aria-label="Back to top">⬆</a>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="current-year">2025</span> Manoj Chavan |
+      <a href="mailto:123manoj2129@sjcem.edu.in">Email</a> |
+      <a href="https://github.com/Chavanmanoj" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="terms.html">Terms of Service</a>
+    </p>
+    <p class="visitor-count">Visitor Count: <span id="visitor-counter">0</span></p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script>
+    // Loading animation
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('loading-spinner').style.display = 'none';
+      }, 1000);
+    });
+
+    // Initialize Cookie Consent
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#000" },
+        button: { background: "#f1d600" }
+      },
+      theme: "classic",
+      content: {
+        message: "This website uses cookies to enhance your experience.",
+        dismiss: "Got it!",
+        link: "Learn more",
+        href: "privacy.html"
+      },
+      onStatusChange: function(status) {
+        console.log('Cookie consent status changed to:', status);
+      }
+    });
+
+    // Theme toggle with localStorage
+    const toggleBtn = document.getElementById("theme-toggle");
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const currentTheme = localStorage.getItem("theme") || (prefersDark ? "dark" : "light");
+
+    if (currentTheme === "dark") {
+      document.body.classList.add("dark-theme");
+      toggleBtn.textContent = "☀️ Toggle Theme";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-theme");
+      const theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
+      localStorage.setItem("theme", theme);
+      toggleBtn.textContent = theme === "dark" ? "☀️ Toggle Theme" : "🌙 Toggle Theme";
+    });
+
+    // Hamburger menu toggle
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('nav-links').classList.toggle('active');
+      document.getElementById('hamburger').classList.toggle('active');
+    });
+
+    // Scroll-to-top visibility
+    window.addEventListener('scroll', () => {
+      const backToTop = document.getElementById('back-to-top');
+      backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+      
+      // Store scroll position
+      localStorage.setItem('scrollPosition', window.scrollY);
+    });
+
+    // Fetch JSON data for projects
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => {
+        const projectContainer = document.getElementById('project-list');
+        data.projects.forEach(project => {
+          const projectEl = document.createElement('article');
+          projectEl.className = 'project-card';
+          projectEl.innerHTML = `
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            ${project.link ? `<a href="${project.link}" target="_blank">View Project</a>` : ''}
+          `;
+          projectContainer.appendChild(projectEl);
+        });
+      })
+      .catch(err => console.error('Error loading projects:', err));
+
+    // Form submission with localStorage
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value,
+        timestamp: new Date().toISOString()
+      };
+      
+      // Store form data in localStorage
+      const submissions = JSON.parse(localStorage.getItem('contactSubmissions')) || [];
+      submissions.push(formData);
+      localStorage.setItem('contactSubmissions', JSON.stringify(submissions));
+      
+      // Show success message
+      alert('Thank you for your message! I will get back to you soon.');
+      contactForm.reset();
+    });
+
+    // Visitor counter using localStorage
+    const updateVisitorCounter = () => {
+      let count = localStorage.getItem('visitorCount');
+      if (!count) {
+        count = 0;
+      }
+      count = parseInt(count) + 1;
+      localStorage.setItem('visitorCount', count);
+      document.getElementById('visitor-counter').textContent = count;
+    };
+    updateVisitorCounter();
+
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Scroll to last visited section on load
+    window.addEventListener("load", () => {
+      const lastSection = localStorage.getItem("lastSection");
+      if (lastSection && document.querySelector(lastSection)) {
+        setTimeout(() => {
+          document.querySelector(lastSection).scrollIntoView({ behavior: "smooth" });
+        }, 500);
+      }
+    });
+
+    // Save last visited section
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (link.getAttribute('href').startsWith('#')) {
+          localStorage.setItem("lastSection", link.getAttribute("href"));
+        }
+      });
+    });
+  </script>
+</body>
+</html>
